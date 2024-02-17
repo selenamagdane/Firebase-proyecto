@@ -32,7 +32,7 @@ export const auth = getAuth(app);
 export const db = getFirestore();
 
 //funciones de crud
-export const createTask = (title, description) => addDoc(collection(db, "tasks"),{title, description});
+export const createTask = (title, description, userName, date, time) => addDoc(collection(db, "tasks"),{title, description, userName, date, time});
 
 export const getTask = id => getDoc(doc(db, "tasks", id));
 
