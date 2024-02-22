@@ -18,3 +18,23 @@
       </div>
     </main>
   </header>
+
+
+
+  /*<main class="row w-75 mx-auto" id="task-main-container">
+    <div class="col-md-6" id="task-form-container">
+      <div id="create-tasks">
+        <h2 class="text-success mb-4">Crear Tarea</h2>
+        <form id="create-form">
+          <div class="form-group">
+          <label for="task-title" class="text-success">Title:</label>
+          <input type="text" class="form-control" id="task-title" placeholder="Ingresa el título"/>
+        </div>
+        <div class="form-group">
+          <label for="task-content" class="text-success">Content:</label>
+          <textarea class="form-control" id="task-content" cols="30" rows="5" placeholder="Ingresa el contenido"></textarea>
+        </div>
+          <button type="submit" id="btn-task-save" class="btn btn-success">Create Task</button>
+        </form>
+      </div>
+    </div>
